@@ -4,8 +4,10 @@ def nyc_pigeon_organizer(data)
   data.each{
     |attributeName, attributeValue|
     attributeValue.each{
-      |attribute_val, name|
+      |attribute_val, names|
+      names.each{|name|
       newHash[name][attributeName]=attribute_val
+      }
     }
   }
   newHash
