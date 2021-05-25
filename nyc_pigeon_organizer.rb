@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     attributeValue.each{
       |attribute_val, names|
       names.each{|name|
-      if(newHash[name])=nil
+      if(newHash[name]==nil)
         newHash[name]={}
       end
       newHash[name][attributeName]=attribute_val
