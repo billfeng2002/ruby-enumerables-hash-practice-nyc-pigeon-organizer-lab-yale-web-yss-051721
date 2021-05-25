@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       if(newHash[name][attributeName]==nil)
         newHash[name][attributeName]=[]
       end
-      newHash[name][attributeName]<< attribute_val
+      newHash[name][attributeName]<< attribute_val.to_s
       }
     }
   }
