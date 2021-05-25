@@ -8,4 +8,5 @@ def nyc_pigeon_organizer(data)
       newHash[name][attributeName]=attribute_val
     }
   }
+  newHash
 end
